@@ -1,0 +1,89 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 3
+Full Name  : Jivin Chugh
+Student ID#: 156056210
+Email      : jchugh@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+1. The functions that I made in order to run the code are : 
+   (1)void swapping(struct Appointment* array, struct Appointment* appoint);
+      the void swapping function is used to swap two functions by use of 2 pointers, it 
+      copies the value of app1, that is the appointment array into an appointment temp 
+      variable in the struct appointment so as to make a copy of it, also the app1 and app2 
+      here are just used as swap variables and the pointer helps to store in the address of 
+      the place in order to do the swapping. It stores in value of app1 in temp and value of 
+      app2 in app1, then it stores the value of temp in app2 so it basically stores the value
+      of app1 in app2 because indirectly temp stores the value of app1; at the end
+      app2 value is stored in app1 and app1 value is stored in app2.
+   (2)void sortingdata(struct Appointment array[], int n);
+      void sortingdata is basically using the bubblesort technique in order to sort data     
+      particular array. bubble sort compares two adjacent elements to find which one is
+      greater or lesser and switches them based on the given condition until the final 
+      place of the element is found. It sorts the data and after sorting the data if 
+      it finds a data 1 > data 2 then it swaps both the numbers by using swapping()
+      function that we created before and thus accordingly it sorts the number in the
+      same way from 1 to n in order to sort the complete data and get the desired result.
+   (3)int importAppointments(const char* datafile, struct Appointment appoints[], int max);
+      import appointment function is used to import the data given in the datafiles 
+      to get the essential inputs for the program, it basically reads the data from another
+      appointment.txt file
+
+2. The addAppointment function took 98 lines of coding, approximately 100-200 more lines 
+   of coding were saved with pattern recognition. The use of functions as inputIntRange,
+   findPatientIndexByPatientNum and inputIntPositive save a lot of lines of code because it 
+   passes the code to the base file, that is the core.c file which in turn checks the 
+   entered input by the user in terms of what data and what conditions are to be used and 
+   thus helps in avoiding entering and checking the data entry or the conditions of the 
+   data again and again in order to get the things done. 
+   (1)To take in the Patient Number, we used the inputIntPositive() function in order to 
+      make sure that the entered digit is a positive integer.
+   (2)To check the num variable, findPatientIndexByPatientNum() is used in which patient
+      number is passed and the patients and max patients are passed in order to imply that 
+      part and it finds the patient number by keeping check on maximum patients 
+      accordingly.
+   (3)To check the year, same inputIntPositive() is used in order to make sure that the
+      entered digit is a valid integer value
+   (4)To check the month again, inputIntRange() is used in order to make sure that the
+      entered digit is in a particular range of 1 and 12 that are the maximum and minimum
+      number of months.
+   (5)In the same way to check for the normal month range that is 29, the inputIntRange()
+      used in order to check the range and pass the operation if it is in the range on 1 to 
+      29.
+   (6)Same way, inputIntRange() is used again for taking range of leap year month which 
+      checks the range from 1 to 28 days.
+   (7) To take in the hours which have a range of 1 to 23, inputIntRange() is used.
+   (8) same goes for minutes, the inputIntRange() is used between 1 ad 59.
+    
+3. This milestone demanded a lot of concentration and time, being a full time and working
+   student, I already had an ample amount of work for the week, we got 2 presentations to 
+   get done and some big assignments too, to start with for the first 2 days I did the 
+   presentation 1 and for the third day I did presentation 2, the 4th, 5th and 6th day were
+   my job days and also I started my assignment 1 milestone 3 side by side, I used to 
+   take my laptop to my work and used to code in the transit, I used to have 1.5hr of 
+   traveling to my work and 1.5hr coming back home, so I used those 3hrs of 
+   waste time and made it a useful one, first of all I started working with the mandatory
+   functions which are viewAllappointments, viewAppointmetSchedule, addAppointment and 
+   removeAppointment, after 3 days I got the four of these half done but there was still
+   work left with the rest functions that were about to be added in order to get the 
+   program done, on sunday I became tired enough and gave hope when a worst thing happened 
+   to me, I spilled coffee on my laptop and my keybinds gone wild, even now it is in the
+   same situation and broken with 2-3 keybinds completely wrong, for the next functions 
+   which are my utility functions it just took me 1 day in order to get those done, after 
+   those, the extra functions were still left and I had no idea how to do that, so in order
+   to get that done I started reviewing the class videos on Tuesday night and found out the 
+   bubble sort algorithm so I researched a bit more about it using the internet and videos
+   available online and then as soon as I got that done a sudden idea struck into my mind 
+   so as soon as I implemented that idea, it made the code run smoothly (with some errors
+   but those errors took not more than 1 hour to sort), the moral for me here becomes to
+   start the work as soon as it is given and also to make sure that all course notes and 
+   concepts are clear.
+
+   

@@ -1,0 +1,19 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #8
+Full Name  : Jivin Chugh
+Student ID#: 156056210
+Section    : NAA
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1)For me, function number 5 i.e, void displayFormattedPhone(char* phonenumber) 
+was the most difficult to do as in the first place we were required to check if the variable phonenumber!=NULL and then the most difficult part became tome as counting, check the array if it is of the right size and then print if it is so, I started thinking about how to count then for loop logic strike into my mind which made me think of what should be the loopvariable<lastnumber then I reviewed the class which gave me a hint that '\0' is the last char of any array string so I ran a for loop till '\0' and thus my logic part of counting became clear there. Talking about the debugging and testing part, I used the printf method to keep track of counting by writing printf loopvariable and printing the serial number of the counter which made me realize my printing mistake and this made my errors solved. 
+
+2) Yes it is a really good practice to initialize variables to a "safe empty set" because C does not initialize variables to 0 on its own and whenever we enter a variable, a memory address is allocated to the variable by the compiler and if we do not initialize the variable, the default value at the address is taken, which is a garbage value and thus the variable gets a garbage value and to avoid this, we prefer initializing the variable as 0 or NULL. We use NULL whenever we need to assign the value of the variable as nothing whereas 0 is used to store the value of 0 in the variable. The basic difference between using NULL is that NULL can be used to initialize any non-primitive data type, whereas 0 can be used to initialize only the numeric data types such as int.
+
+3)My attempt in explaining to a friend about "standard input buffer" will be that whenever we press enter, the compiler usually takes enter as a character and accepts the value, now we haven't entered any value so it rather takes in any garbage value, garbage value here is referred to as any waste random value from the bin. So as to avoid this we write, "standard input buffer" which clears the input buffer, that is the garbage entered value by the compiler on default. 

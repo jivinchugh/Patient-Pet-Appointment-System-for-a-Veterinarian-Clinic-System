@@ -1,0 +1,17 @@
+﻿  a1ms1.c
+  core.c
+C:\Users\jivin\OneDrive\Desktop\Seneca College\BTP100 Prog Fund using C\Assignments\BTP-Project-master\A1\MS1\core.c(3,16): warning C4013: 'getchar' undefined; assuming extern returning int
+C:\Users\jivin\OneDrive\Desktop\Seneca College\BTP100 Prog Fund using C\Assignments\BTP-Project-master\A1\MS1\core.c(12,8): warning C4013: 'printf' undefined; assuming extern returning int
+C:\Users\jivin\OneDrive\Desktop\Seneca College\BTP100 Prog Fund using C\Assignments\BTP-Project-master\A1\MS1\core.c(14,9): warning C4013: 'putchar' undefined; assuming extern returning int
+C:\Users\jivin\OneDrive\Desktop\Seneca College\BTP100 Prog Fund using C\Assignments\BTP-Project-master\A1\MS1\core.c(22,18): warning C4013: 'scanf' undefined; assuming extern returning int
+  Generating Code...
+a1ms1.obj : error LNK2019: unresolved external symbol test02_inputIntPositive referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test03_inputIntRange referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test04_inputIntRange referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test05_inputCharOption referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test06_inputCString referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test07_inputCString referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test08_inputCString referenced in function main
+a1ms1.obj : error LNK2019: unresolved external symbol test09_displayPhone referenced in function main
+core.obj : error LNK2019: unresolved external symbol scanf referenced in function inputInt
+C:\Users\jivin\OneDrive\Desktop\Seneca College\BTP100 Prog Fund using C\Assignments\BTP-Project-master\A1\MS1\x64\Debug\a1ms1.exe : fatal error LNK1120: 9 unresolved externals

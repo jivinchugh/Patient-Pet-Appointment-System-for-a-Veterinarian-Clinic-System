@@ -1,0 +1,20 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 2
+Full Name  : Jivin Chugh
+Student ID#: 156056210
+Email      : jchugh@myseneca.ca
+Section    : NAA
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+1) A library is the collection of modules, whereas a module is a set of parts of programming (basically a file with script in it or independent code blocks that can be used to construct any complex structure. A library should be named according to the way it is to be performed, in our case core.c and core.h are the core which means the main basic programming files on which the complete program runs so it should in named in such a way to make it more recognizable and logical. Also, using the same names makes it clear which source code file we are referring to, because whenever we use so many source code programs in a single module, it becomes easier for us to compare and refer to, in our case we used the clinic.c and clinic.h which made things more convenient to us.
+
+2) The differentiation of the codes into two sections makes a code much better, at times it depends on which codes we need to run and which code we do not need to run. One of the main advantages of differentiating the code blocks, for our assignment milestone 2, we've used the clinic to take in records of the clinic's patient management and help to add, edit, remove whereas the core file is used to take in the core input and validates the data, it is independent of the clinic module and thus differentiation of modules is must and is beneficial.
+
+3)The header file and implementation files are typically split up into two, this is because the header file(core.h and clinic.h) in our assignment, consists of the function definitions for example the implementation file(core.c and clinic.c) contains the implementation of the function codes. By differentiation of modules, we do not need to recompile things again and again, for example, if we change a code in the implementation (core.c and clinic.c) file, only the implementation file needs to be recompiled. Also, it makes things convenient for us as it differentiates things and makes it easier for us to compare and make corrections rather than searching for it and scrolling a code that might become too long if not a different module is used.
